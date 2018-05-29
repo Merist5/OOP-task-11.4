@@ -1,4 +1,4 @@
-function Phone(brand, price, color){
+function Phone(brand, price, color) {
   this.brand = brand;
   this.price = price;
   this.color =color;
@@ -9,10 +9,10 @@ Phone.prototype.printInfo = function() {
   + " and the price is " + this.price + ".");
 }
 
-var SmsngGalaxyS6 = new Phone("Samsung", 2000, "black");
+var smsngGalaxyS6 = new Phone("Samsung", 2000, "black");
 var iPhone6s = new Phone("Apple", 3000, "rose gold");
-var OneplusOne = new Phone("OnePlus", 1000, "silver");
+var oneplusOne = new Phone("OnePlus", 1000, "silver");
 
-SmsngGalaxyS6.printInfo();
+smsngGalaxyS6.printInfo();
 iPhone6s.printInfo();
-OneplusOne.printInfo();
+oneplusOne.printInfo();
